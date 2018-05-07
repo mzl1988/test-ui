@@ -1,8 +1,0 @@
-<StackLayout orientation="vertical" class="thumbnail-item {{className}}" (tap)="onTap($event)">
-    <StackLayout orientation="horizontal">
-        <Image *ngIf="imageSrc" class="thumbnail-image" [src]="imageSrc" stretch="aspectFit" loadMode="async"></Image>
-        <StackLayout orientation="vertical" class="item-inner">
-            <ng-content></ng-content>
-        </StackLayout>
-    </StackLayout>
-</StackLayout>

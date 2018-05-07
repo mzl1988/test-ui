@@ -1,0 +1,1 @@
+/Users/admin/Documents/test/test-ui/platforms/android/app/src/main/assets/app
