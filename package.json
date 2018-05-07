@@ -1,9 +1,15 @@
 {
+	"name": "test-ui",
+	"version": "2.0.0",
 	"description": "NativeScript Application",
 	"license": "SEE LICENSE IN <your-license-filename>",
 	"readme": "NativeScript Application",
 	"repository": "<fill-your-repository-here>",
 	"main": "index",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mzl1988/test-ui.git"
+	},
 	"nativescript": {
 		"id": "org.nativescript.HelloWorld",
 		"tns-android": {
