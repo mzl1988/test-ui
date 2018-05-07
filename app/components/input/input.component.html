@@ -1,0 +1,12 @@
+<GridLayout columns="auto, *" class="input" [class.focus]="isFocused" (tap)="onTap($event)">
+    <Label col="0" txt-md [icon]="icon" *ngIf="icon" class="input-icon"></Label>
+    <TextField #input
+        txt-md
+        col="1"
+        [class]="'input-field ' + classes"
+        [secure]="isPassword"
+        [hint]="placeholder" 
+        [keyboardType]="keyboard"
+        [(ngModel)]="value">
+    </TextField>
+</GridLayout>

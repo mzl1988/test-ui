@@ -1,0 +1,38 @@
+@import "color.scss";
+
+.article {
+    background-color: #ffffff;
+    padding: 15;
+
+    .category {
+        font-size: 16;
+        color: $primary;
+        text-align: left;
+        line-height: 19;
+    }
+
+    .title {
+        font-size: 24;
+        color: $darkgrey;
+        text-align: left;
+        line-height: 28;
+    }
+
+    .post-date, .post-user {
+        font-size: 12;
+        color: $darkgrey;
+        line-height: 19;
+    }
+
+    .dots {
+        font-size: 12;
+        color: $grey;
+        line-height: 19;
+    }
+
+    .content {
+        font-size: 24;
+        color: $darkgrey;
+        line-height: 22;
+    }
+}

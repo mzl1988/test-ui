@@ -1,0 +1,13 @@
+@import '../../css/color.scss';
+
+.action{
+    padding: 8 0;
+
+    .action-icon{
+        padding-right: 8;
+        color: $primary;
+    }
+    .action-text{
+        color: $darkgrey;
+    }
+}

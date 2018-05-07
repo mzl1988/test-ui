@@ -1,0 +1,7 @@
+<StackLayout #slide 
+    [height]="height"
+    [class]="classes"
+    (load)="onLoad($event)" 
+    (tap)="onTap($event)">
+    <ng-content></ng-content>
+</StackLayout>

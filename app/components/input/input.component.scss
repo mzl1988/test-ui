@@ -1,0 +1,24 @@
+@import '../../css/color.scss';
+
+.input{
+    height: 35;
+    border-width: 0 0 2 0;
+    border-color: $grey;
+
+    .input-icon{
+        color: $grey;
+        padding: 10 10 9 0;
+    }
+    .input-field{
+        border-width: 0;
+        height: 100%;
+        background-color: transparent;
+    }
+}
+.input.focus{
+    border-color: $primary;
+
+    .input-icon{
+        color: $primary;
+    }
+}

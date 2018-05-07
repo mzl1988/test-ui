@@ -1,0 +1,10 @@
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+var sidedrawer_1 = require("nativescript-pro-ui/sidedrawer");
+exports.LOCATIONS = [
+    sidedrawer_1.SideDrawerLocation.Left,
+    sidedrawer_1.SideDrawerLocation.Top,
+    sidedrawer_1.SideDrawerLocation.Right,
+    sidedrawer_1.SideDrawerLocation.Bottom
+];
+//# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoibW9jay1kYXRhLmpzIiwic291cmNlUm9vdCI6IiIsInNvdXJjZXMiOlsibW9jay1kYXRhLnRzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiI7O0FBQUEsNkRBQW9FO0FBRXpELFFBQUEsU0FBUyxHQUF5QjtJQUN6QywrQkFBa0IsQ0FBQyxJQUFJO0lBQ3ZCLCtCQUFrQixDQUFDLEdBQUc7SUFDdEIsK0JBQWtCLENBQUMsS0FBSztJQUN4QiwrQkFBa0IsQ0FBQyxNQUFNO0NBQzVCLENBQUEiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgeyBTaWRlRHJhd2VyTG9jYXRpb24gfSBmcm9tICduYXRpdmVzY3JpcHQtcHJvLXVpL3NpZGVkcmF3ZXInO1xuXG5leHBvcnQgdmFyIExPQ0FUSU9OUzogU2lkZURyYXdlckxvY2F0aW9uW10gPSBbXG4gICAgU2lkZURyYXdlckxvY2F0aW9uLkxlZnQsXG4gICAgU2lkZURyYXdlckxvY2F0aW9uLlRvcCxcbiAgICBTaWRlRHJhd2VyTG9jYXRpb24uUmlnaHQsXG4gICAgU2lkZURyYXdlckxvY2F0aW9uLkJvdHRvbVxuXSJdfQ==

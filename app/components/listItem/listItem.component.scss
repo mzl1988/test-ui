@@ -1,0 +1,14 @@
+@import '../../css/color.scss';
+
+.list-item{
+    padding: 12 15;
+
+    .list-item-text{
+        color: $darkgrey;
+        padding: 2 0;
+    }
+    .list-item-secondary-text{
+        color: $secondary;
+        padding: 2 0 0 0;
+    }
+}

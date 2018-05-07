@@ -1,0 +1,14 @@
+<GridLayout rows="auto, *" class="picker-box">
+    <StackLayout row="0">
+        <GridLayout columns="auto, *, auto" class="header">
+            <Label [text]="cancelText" textWrap="true" col="0" class="btn-lab" (tap)="cancel()"></Label>
+            <Label [text]="title" textWrap="false" col="1" class="title"></Label>
+            <Label [text]="confirmText" textWrap="true" col="2" class="btn-lab" (tap)="confirm()"></Label>
+        </GridLayout>
+    </StackLayout>
+    <StackLayout row="1">
+        <FlexboxLayout flexDirection="column">
+            <ListPicker #listPicker [items]="items" [selectedIndex]="selectedIndex" (selectedIndexChange)="selectedIndexChanged($event)" (loaded)="loadedEvent($event)"></ListPicker>
+        </FlexboxLayout>
+    </StackLayout>
+</GridLayout>

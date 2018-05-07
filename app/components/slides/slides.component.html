@@ -1,0 +1,9 @@
+<AbsoluteLayout 
+    #slides
+    (load)="onLoad($event)" 
+    (pan)="onPan($event)"
+    (swipe)="onSwipe($event)">
+    <StackLayout orientation="horizontal">
+        <ng-content select="Slide"></ng-content>
+    </StackLayout>
+</AbsoluteLayout>

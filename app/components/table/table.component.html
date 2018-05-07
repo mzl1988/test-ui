@@ -1,0 +1,19 @@
+<ScrollView orientation="horizontal" scrollBarIndicatorVisible="true">
+    <GridLayout [rows]="gridLayoutRows.toString()" [columns]="gridLayoutColumns.toString()" class="table">
+
+        <ng-template ngFor let-column let-columnIndex="index" [ngForOf]="columns">
+            <StackLayout row="0" [col]="columnIndex" class="row">
+                <Label [text]="column.title" textWrap="true" class="col" [ngClass]="column.className"></Label>
+            </StackLayout>
+        </ng-template>
+
+        <ng-template ngFor let-row let-rowIndex="index" [ngForOf]="rows">
+            <ng-template ngFor let-column let-columnIndex="index" [ngForOf]="columns">
+                <StackLayout [row]="rowIndex + 1" [col]="columnIndex" class="row" [ngClass]="row.className" (tap)="cellTap(row, rowIndex)">
+                    <Label [text]="row[column.name]" textWrap="true" class="col" [ngClass]="row[column.name + 'Class']"></Label>
+                </StackLayout>
+            </ng-template>
+        </ng-template>
+
+    </GridLayout>
+</ScrollView>

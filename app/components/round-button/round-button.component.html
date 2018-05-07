@@ -1,0 +1,4 @@
+<FlexboxLayout class="round-btn" [backgroundColor]="backgroundColor" (tap)="onTap($event)">
+    <Label *ngIf="icon" [icon]="icon" textWrap="true" [color]="color"></Label>
+    <Label [text]="text" textWrap="true" class="text" [color]="color"></Label>
+</FlexboxLayout>

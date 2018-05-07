@@ -1,0 +1,16 @@
+<StackLayout class="article">
+    <Label *ngIf="category" [text]="category" textWrap="true" class="category"></Label>
+    <Label *ngIf="title" [text]="title" textWrap="true" class="title"></Label>
+    <GridLayout *ngIf="postDate && postUser" columns="auto, *">
+        <Label *ngIf="postDate" [text]="postDate" textWrap="true" col="0" class="post-date"></Label>
+        <StackLayout col="1">
+            <GridLayout *ngIf="postUser" columns="auto, *">
+                <Label text="●" textWrap="true" class="padding-left-10 padding-right-10 dots" col="0"></Label>
+                <Label [text]="postUser" textWrap="true" col="1" class="post-user"></Label>
+            </GridLayout>
+        </StackLayout>
+    </GridLayout>
+    <StackLayout *ngIf="content" class="content">
+        <Label [text]="content" textWrap="true"></Label>
+    </StackLayout>
+</StackLayout>
