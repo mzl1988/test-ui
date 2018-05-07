@@ -3,6 +3,7 @@
 	"license": "SEE LICENSE IN <your-license-filename>",
 	"readme": "NativeScript Application",
 	"repository": "<fill-your-repository-here>",
+	"main": "index",
 	"nativescript": {
 		"id": "org.nativescript.HelloWorld",
 		"tns-android": {
