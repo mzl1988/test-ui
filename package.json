@@ -1,5 +1,5 @@
 {
-  "name": "@iris/ui",
+  "name": "test-ui",
   "version": "2.0.0",
   "main": "index",
   "module": "app/modules/ui.module",
@@ -7,10 +7,10 @@
   "license": "ISC",
   "repository": {
     "type": "git",
-    "url": "https://ARBA_JackyWang@bitbucket.org/arba-tech/iris-ui.git"
+    "url": "https://github.com/mzl1988/test-ui.git"
   },
   "nativescript": {
-    "id": "org.nativescript.irisui",
+    "id": "org.nativescript.testui",
     "tns-android": {
       "version": "3.3.1"
     },
@@ -64,6 +64,5 @@
     "Iris",
     "FWD",
     "ARBA"
-  ],
-  "author": "jacky.wang@arbaholdings.com"
+  ]
 }
