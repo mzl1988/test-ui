@@ -1,5 +1,5 @@
-export { UIModule } from './app/modules/ui.module';
-import { UIModule } from './app/modules/ui.module';
+export * from './app/modules/ui.module';
+// import { UIModule } from './app/modules/ui.module';
 
 // export { Color, Icon, Typography } from './app/dictionaries/';
 // import { Color, Icon, Typography } from './app/dictionaries/';
