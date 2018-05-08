@@ -6,7 +6,9 @@
 	"readme": "NativeScript Application",
 	"repository": "<fill-your-repository-here>",
 	"typings": "index.d.ts",
+	"main": "index.d.ts",
 	"files": [
+		"index.d.ts",
 		"./app/**/*.ts"
 	],
 	"repository": {
