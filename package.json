@@ -6,6 +6,9 @@
 	"readme": "NativeScript Application",
 	"repository": "<fill-your-repository-here>",
 	"typings": "index.d.ts",
+	"files": [
+		"./app/**/*.ts"
+	],
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/mzl1988/test-ui.git"
