@@ -8,7 +8,7 @@
 	"typings": "index.d.ts",
 	"main": "index.d.ts",
 	"files": [
-		"index.d.ts"
+		"./node_modules/test-ui/**/*.ts"
 	],
 	"repository": {
 		"type": "git",
